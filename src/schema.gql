@@ -1,0 +1,16 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+"""Date custom scalar type"""
+scalar Date
+
+"""ping"""
+type Ping {
+  date: Date!
+  ok: Boolean!
+}
+
+type Query {
+  ping: Ping!
+}
